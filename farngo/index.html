@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html Lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&family=New+Amsterdam&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <title>Em busca do frango perfeito</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Eu sou um chefe de cozinha do restaurante GODS-FOOD, em um dia, estava tentando buscar uma receita boa e inovadora para surpreender meus clientes, de tantas opcões, de tantos gostos, de tantas preferências, escolhi o frango, um alimento bem requisitado e bem sucedido. Pensei em duas das melhores indicações mais famosas atualmente.  </p>
+            <button class="btn-proximo" data-proximo="1">Frango assado inteiro</button>
+            <button class="btn-proximo" data-proximo="2">Frango empanado em partes da escolha com molho especial</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1-assado.png" alt="imagem frango assado">
+            <p>Escolhi o frango assado, é gostoso, sequinho, sabor mais leve e defumado, pode ser acompanhado na prórpia preparação com outros ingredientes, como a batata, cebola, pimentão, entre outros dependendo do gosto. É inteiro, com várias partes dele, no que pode alimentar várias pessoas. Porém se não preparado direito pode ficar seco e isso é um problema.   </p>
+            <button class="btn-proximo" data-proximo="3">Preparação do assado sem muitos acompanhamentos</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e fazer um frango normal</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo2-empanado.png" alt="imagem frango empanado">
+        <p>Escolhi o frango empanado, é crocante, rápido pra fazer, satifaz bastante, é gostoso, tem vários molhos para acompanhar, pode ser servido em várias porções, são poucos ingredientes para fazelo, e pode vender bastante. Porém, se não feito direito pode ficar gorduroso.</p>
+        <button class="btn-proximo" data-proximo="5">Preparação do empanado com molhos</button>
+        <button class="btn-proximo" data-proximo="6">Esquecer o empanado e fazer um frango na airfryer</button>
+    </div>
+    <div class="passo" id="passo-3">
+        <p>Com a escolha de muitos acompanhamentos, adicionamos vários legumes e temperos, uma ótima escolha, pois o sabor fica mais abundante. O que faz bastante sucesso e satifaz uma boa parte dos clientes que gostam de pratos com vários alimentos.   </p>
+        <button class="btn-proximo" data-proximo="7">Servir aos clientes</button>
+    </div>
+
+    <div class="passo" id="passo-4">
+        <img src="cenario-passo4.png" alt="desisto">
+        <p>Desisto de inovar, vou fazer um frango normal, pode não fazer muito sucesso, mas serve como um alimento bom.    </p>
+       </div>
+
+       <div class="passo" id="passo-5">
+        <p>Com a escolha do frango empanado com os molhos, é mais famoso e mais pedido, com os molhos e em várias porções, vai fazer muito sucesso.    </p>
+        <button class="btn-proximo" data-proximo="8">Servir aos clientes</button>
+    </div>
+
+    <div class="passo" id="passo-6">
+        <img src="cenario-passo6.png" alt=""perda>
+        <p>Desisto de inovar e vou fazer um frango na airfryer, vai ficar um pouco seco, mas vai servir para os clientes.   </p>
+    </div>
+
+    <div class="passo" id="passo-7">
+        <img src="cenario-passo7.png" alt="sucesso">
+        <p>Vou servir aos clientes, esta tudo pronto, perfeito, acredito que vai fazer muito sucesso no nosso restaurante, como uma nova receita delicosa.    </p>
+       </div>
+
+
+       <div class="passo" id="passo-8">
+        <img src="cenario-passo8.png" alt="sucesso">
+        <p>Vou servir aos clientes, esta tudo pronto, perfeito, acredito que vai dar muito certo, pois frango empanado é uma escolha muito requisitada por muitos, e ainda com os nossos molhos, tenho certeza que vai ser ótimo.    </p>
+       </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
